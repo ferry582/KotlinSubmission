@@ -81,7 +81,7 @@ fun main() {
     //group 6 :
     doChallenge(2,4,2,2,7,4)
 
-    if (!hero.checkHealth()) anotherHero.attack(hero) // call attack method if hero still alive
+    if (!hero.checkHealth()) anotherHero.attack(hero) // anotherHero attack hero, if hero still alive
 
     if (hero.checkHealth()) {
         println("Anda telah mati ${hero.name}")
